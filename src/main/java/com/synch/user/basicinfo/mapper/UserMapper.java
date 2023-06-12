@@ -2,7 +2,6 @@ package com.synch.user.basicinfo.mapper;
 
 import com.synch.user.basicinfo.dto.UserDetailsDTO;
 import com.synch.user.basicinfo.model.User;
-import org.springframework.security.core.userdetails.UserDetails;
 
 public class UserMapper {
 

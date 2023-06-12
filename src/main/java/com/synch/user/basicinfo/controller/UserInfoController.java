@@ -9,13 +9,13 @@ import com.synch.user.basicinfo.service.UserService;
 import com.synch.user.basicinfo.util.StaticClass;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import org.springframework.core.io.Resource;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
